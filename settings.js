@@ -20,8 +20,8 @@ const presence = process.env.WA_PRESENCE || 'online';
 
 const antitag = process.env.ANTITAG || 'true';
 const antidelete = process.env.ANTIDELETE || 'false';
-const autoview = process.env.AUTOVIEW_STATUS || 'false';
-const autolike = process.env.AUTOLIKE_STATUS || 'false';
+const autoview = process.env.AUTOVIEW_STATUS || 'true';
+const autolike = process.env.AUTOLIKE_STATUS || 'true';
 const autoread = process.env.AUTOREAD || 'true';
 const autobio = process.env.AUTOBIO || 'false';
 
